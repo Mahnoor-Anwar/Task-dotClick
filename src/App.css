@@ -1,3 +1,10 @@
+
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 .App {
   text-align: center;
 }
@@ -35,4 +42,480 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.sidebar{
+
+  /* box-shadow: 5px 0 5px -5px #333; */
+box-shadow: 5px 0 5px -5px rgba(0,0,0,0.7),
+-5px 0 5px -5px rgba(0,0,0,0.7);  
+}
+
+.main-content {
+background-color: #D9D9D9;
+z-index: -1;
+
+}
+
+.layout {
+  height: 1379px;
+}
+
+.logo {
+  font-style: italic;
+  font-weight: 800 !important;
+  font-size: 35.48px;
+  line-height: 42.58px;
+  font-family: 'Lato', sans-serif;
+  width: 119px;
+  height: 48px;
+  position: relative;
+  top: 37.08px;
+  left: 39px;
+}
+
+.list-1 {
+  width: 190px;
+  height: 34px;
+  top: 146.95px;
+  left: 19px;
+  position: relative;
+font-family: 'Poppins', sans-serif;
+font-size: 23px;;
+font-weight: 600;
+line-height: 34px;
+letter-spacing: -0.02em;
+text-align: left;
+color: #72AA83;
+}
+
+.divider-1 {
+  width: 249px;
+  position: relative;
+  top: 200.5px;
+  left: 20px;
+  border: 1px solid;
+  /* text-align: center; */
+  background: #0000004A;
+}
+
+.list-2 {
+  width: 158px;
+  height: 33px;
+  position: relative;
+  top: 227px;
+  left: 19px;
+  font-family: 'Poppins', sans-serif;
+font-size: 22px;
+font-weight: 600;
+line-height: 33px;
+letter-spacing: -0.02em;
+text-align: left;
+color: #494949;
+  
+}
+
+.divider-2 {
+  width: 249px;
+  position: relative;
+top: 282px;
+left: 20px;
+border: 1px solid;
+background: #0000004A;
+/* text-align: center; */
+}
+
+.list-3 {
+  width: 156px;
+height: 33px;
+position: relative;
+top: 306px;
+left: 19px;
+font-size: 22px;
+font-family: 'Poppins', sans-serif;
+font-weight: 600;
+line-height: 33px;
+letter-spacing: -0.02em;
+text-align: left;
+color: #494949;
+
+}
+
+.divider-3{
+  width: 249px;
+  top: 361.5px;
+  left: 20px;
+  position: relative;
+  background: #0000004A;
+  border: 1px solid;
+  /* text-align: center; */
+  
+}
+
+.list-4 {
+  width: 84px;
+height: 33px;
+position: relative;
+top: 385px;
+left: 19px;
+font-size: 22px;
+font-family: 'Poppins', sans-serif;
+font-weight: 600;
+line-height: 33px;
+letter-spacing: -0.02em;
+text-align: left;
+color: #494949;
+
+}
+
+.divider-4 {
+  width: 249px;
+  position: relative;
+top: 442px;
+left: 20px;
+background: #0000004A;
+border: 1px solid;
+} 
+
+.logout {
+  width: 231px;
+height: 70px;
+position: relative;
+top: 800px;
+left: 29px;
+border-radius: 10px;
+background: linear-gradient(180deg, #48AF78 0%, #42996B 100%) !important;
+border:1px solid #48AF78;
+color: #FFFFFF;
+font-size: 22px;
+font-family: 'Poppins', sans-serif;
+font-weight: 600;
+line-height: 33px;
+letter-spacing: -0.05em;
+}
+
+.help-desk {
+  font-family: 'Lato', sans-serif;
+font-size: 18px;
+font-weight: 500 !important;
+line-height: 21px;
+letter-spacing: -0.07em;
+text-align: left;
+width: 76px;
+height: 21px;
+position: relative;
+top: 836px;
+left: 108px;
+color: #494949;
+}
+
+.help-desk-no {
+width: 100px;
+height: 21px;
+position: relative;
+top: 836px;
+left: 98px;
+font-family: 'Lato', sans-serif;
+font-size: 18px;
+font-weight: 500 !important;
+line-height: 21px;
+letter-spacing: -0.07em;
+text-align: left;
+color: #494949;
+
+
+}
+
+.css-ft4jij-MuiDivider-root {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+.no-of-req {
+  width: 422px;
+  height: 43px;
+  position: relative;
+  top: 75.71075439453125px;
+  left: 60px;
+  font-family: 'Poppins';
+font-size: 29px;
+font-weight: 600;
+line-height: 43px;
+letter-spacing: -0.02em;
+text-align: left;
+color: #72AA83;
+
+  
+}
+
+.In-progress {
+  width: 1114px;
+height: 226px;
+position: relative;
+top: 159px;
+left: 60px;
+border: 1px;
+background: #FFFFFF;
+border: 1px solid #FFFFFF;
+box-shadow: 2px 2px 8px 0px #00000040;
+
+
+}
+
+.hospital-name {
+  width: 217px;
+height: 35px;
+position: relative;
+top: 31px;
+left: 20px;
+font-family: 'Lato';
+font-size: 29px;
+font-weight: 700;
+line-height: 35px;
+letter-spacing: -0.015em;
+text-align: left;
+color: #48AF78;
+}
+
+.hospital-address {
+  width: 142px;
+height: 20px;
+position: relative;
+top: 41px;
+left: 20px;
+font-family: 'Lato';
+font-size: 17px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: -0.005em;
+text-align: left;
+color: #959595;
+}
+
+.div-2 {
+  width: 55.41061782836919px;
+height: 251.84037780761741px;
+top: 209.2862548828125px;
+position: relative;
+left: 943.5px;
+border: 1.3193005323410034px;
+transform: -90 deg;
+
+}
+
+.date {
+  width: 217px;
+height: 35px;
+position: relative;
+left: 20px;
+font-family: 'Lato';
+font-size: 29px;
+font-weight: 700;
+line-height: 35px;
+letter-spacing: -0.015em;
+text-align: left;
+color: #48AF78;
+
+
+}
+
+.month {
+  
+  width: 142px;
+  height: 20px;
+  position: relative;
+  top: 5px;
+  left: 20px;
+  font-family: 'Lato';
+  font-size: 16.58px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.005em;
+  text-align: left;
+  color: #959595;
+  
+}
+
+.date-n-month {
+  border: 1.32px solid #0000004D;
+  position: relative;
+  top: 31px;
+  width: 220.41px;
+  border-top: none;
+  border-bottom: none;
+  
+}
+
+.progress-bar {
+  border: 1px solid #959595;
+  position: relative;
+  top:100px;
+  border-radius: 24px;
+  
+}
+
+.recieved {
+  border-right: 1px solid #959595;
+  background-color: #FDF307;
+  font-family: 'Lato';
+font-size: 17px;
+font-weight: 500;
+
+letter-spacing: -0.07em;
+text-align: left;
+position: relative;
+padding-left: 50px;
+padding-top: 6px;
+padding-bottom: 6px;
+color: #959595;
+
+}
+
+.negotiate {
+  border-right: 1px solid #959595 ;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-family: 'Lato';
+  font-size: 17px;
+color: #959595;
+font-weight: 500;
+  
+}
+
+.completed {
+
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-family: 'Lato';
+  font-size: 17px;
+  color: #959595;
+  font-weight: 500;
+  
+}
+
+.complete{
+  width: 1114px;
+  height: 600px;
+  border-radius: 54px;
+  position: relative;
+  top: 259px;
+  left: 60px;
+  border: 1px;
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  box-shadow: 2px 2px 8px 0px #00000040;
+}
+
+.complete-bar {
+  border: 1px solid #44A16F;
+  position: relative;
+  top:100px;
+  border-radius: 24px;
+  background-color: #44A16F;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 20px;
+  color: #fff;
+}
+
+.holiday {
+  position: relative;
+  top: 200px;
+  
+}
+
+
+.holiday-inn {
+  font-family: 'Poppins';
+font-size: 19px;
+font-style: italic;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: -0.01em;
+text-align: center;
+color: #85C371;
+position: relative;
+top: 25px;
+
+}
+
+.box {
+  width: 275px;
+height: 220px;
+border-radius: 10px;
+border: 3px solid rgb(214, 214, 214);
+background: #F5F4F4;
+}
+
+.inner-box {
+ 
+border-radius: 8px;
+position: relative;
+top:19px;
+z-index: 0;
+box-shadow: 0 -5px 5px -5px #333;
+}
+
+.miles {
+  font-family: 'Lato';
+font-size: 18px;
+font-weight: 500;
+text-align: center;
+color: #959595;
+
+}
+
+.quantity p {
+color: #959595;
+
+}
+
+.book-now {
+  border-radius: 10px;
+  background-color: #44A16F;
+  color: #fff;
+  border:1px solid #44A16F ;
+}
+
+.book-now-btn {
+  position: relative;
+  top: 14px;
+}
+.vector-img {
+  position: relative;
+  top: 20px;
+}
+
+/* .vector-img img {
+  height: 50px;
+}
+
+.box p {
+  position: relative;
+  top: 20px;
+} */
+
+.FAQ {
+  width: 138px;
+height: 138px;
+position: relative;
+top: 259px;
+left:1200px;
+border: 1px;
+
+}
+
+.find {
+  width: 127px;
+height: 40px;
+position: relative;
+top: 217px;
+left: 230px;
+border-radius: 10px;
+background-color: #D96A6B;
+color: #fff;
+display: flex;
+align-items: center;
+justify-content: center;
+z-index: 1;
 }
